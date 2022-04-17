@@ -1,4 +1,6 @@
 {
+  "video": true,
+  "screenshotsFolder": "images",
   "reporter": "cypress-multi-reporters",
   "reporterOptions": {
       "configFile": "reporter-config.json"
