@@ -29,5 +29,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          user_name: 'AsifNawaz0129'
-          user_email: 'asif.nawaz.fast@gmail.com'
+          user_name: 'git config user.name'
+          user_email: 'git config user.email'
