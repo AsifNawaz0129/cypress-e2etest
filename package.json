@@ -1,0 +1,25 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "Basic Cypress testcases for a demo web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsifNawaz0129/cypress-e2etest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsifNawaz0129/cypress-e2etest/issues"
+  },
+  "homepage": "https://github.com/AsifNawaz0129/cypress-e2etest#readme",
+  "devDependencies": {
+    "cypress": "^9.5.4"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
