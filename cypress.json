@@ -1,10 +1,10 @@
 {
   "videosFolder": "cypress/videos",
-  "videoUploadOnPasses": false,
+  "videoUploadOnPasses": true,
   "screenshotsFolder": "images",
   "reporter": "mochawesome",
   "reporterOptions": {
-    "reportDir": "cypress/reports/separate-reports",
+    "reportDir": "cypress/results/json",
     "overwrite": false,
     "html": false,
     "json": true
