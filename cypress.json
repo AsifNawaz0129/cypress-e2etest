@@ -1,5 +1,6 @@
 {
-  "video": true,
+  "videosFolder": "cypress/videos",
+  "videoUploadOnPasses": false,
   "screenshotsFolder": "images",
   "reporter": "cypress-multi-reporters",
   "reporterOptions": {
