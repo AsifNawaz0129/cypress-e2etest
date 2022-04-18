@@ -133,7 +133,7 @@ describe('example to-do app', () => {
       // Then we can make sure that there is only one element
       // in the list and our element does not exist
       cy.get('.todo-list li')
-        .should('have.length', 1)
+        .should('have.length', 3)
         .should('not.have.text', 'Pay electric bill')
 
       // Finally, make sure that the clear button no longer exists.
