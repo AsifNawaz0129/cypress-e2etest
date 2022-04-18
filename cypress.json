@@ -2,8 +2,11 @@
   "videosFolder": "cypress/videos",
   "videoUploadOnPasses": false,
   "screenshotsFolder": "images",
-  "reporter": "cypress-multi-reporters",
+  "reporter": "mochawesome",
   "reporterOptions": {
-      "configFile": "reporter-config.json"
+    "reportDir": "cypress/reports/separate-reports",
+    "overwrite": false,
+    "html": false,
+    "json": true
   }
 }
