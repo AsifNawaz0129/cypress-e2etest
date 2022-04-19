@@ -13,3 +13,8 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           browser: chrome
+      - name: Upload Videos
+        uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: cypress/videos/**
